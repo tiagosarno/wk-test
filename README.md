@@ -17,6 +17,7 @@ $ npm run start:dev
 ==> Para rodar os testes usar dos comandos abaixo:
 
 $ npm run test
+
 $ npm run test:e2e
 
 ===================
