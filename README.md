@@ -20,6 +20,8 @@ $ npm run test
 
 $ npm run test:e2e
 
+==> Para acessar a documentação da API Swagger acessar: http://localhost:3000/docs ou "URL_API/docs"
+
 ===================
 
 FRONTEND
