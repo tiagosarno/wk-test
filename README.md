@@ -2,6 +2,8 @@ WK Test | Desenvolvedor Full Stack
 
 Configurações e passos para subir a aplicação
 
+Devem ser criados dois bancos de dados, um para a aplicação e outro para os testes e2e e informa-los corretamente nos arquivos ".env" e ".env.test" da aplicação backend.
+
 ===================
 
 BACKEND
@@ -11,6 +13,10 @@ $ npm install
 
 $ dotenv -e .env -- npx prisma migrate dev
 $ npm run start:dev
+
+==> Para rodar os testes usar dos comandos abaixo:
+$ npm run test
+$ npm run test:e2e
 
 ===================
 
