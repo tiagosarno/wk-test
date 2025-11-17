@@ -2,6 +2,8 @@ WK Test | Desenvolvedor Full Stack
 
 Configurações e passos para subir a aplicação
 
+===================
+
 BACKEND
 
 $ npm install
@@ -10,7 +12,7 @@ $ npm install
 $ dotenv -e .env -- npx prisma migrate dev
 $ npm run start:dev
 
-================================================
+===================
 
 FRONTEND
 
