@@ -10,7 +10,7 @@ BACKEND
 
 $ npm install
 
-"Copiar conteúdo de .env.test e criar arquivo .env, apontando para o banco desejado"
+"Copiar conteúdo de .env.test e criar arquivo .env, mudar apenas o apontando para o banco desejado"
 
 $ dotenv -e .env -- npx prisma migrate dev
 
