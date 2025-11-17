@@ -26,8 +26,9 @@ FRONTEND
 
 $ npm install
 
-"Criar arquivo .env na raiz do projeto informando a chave abaixo"
-NEXT_PUBLIC_API_URL=http://localhost:3000 ou URL da sua API
+"Criar arquivo .env na raiz do projeto informando a chave:
+
+NEXT_PUBLIC_API_URL="http://localhost:3000" ou "URL_da_sua_API"
 
 $ npm run dev
 
