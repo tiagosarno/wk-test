@@ -9,9 +9,11 @@ Devem ser criados dois bancos de dados, um para a aplicação e outro para os te
 BACKEND
 
 $ npm install
+
 "Copiar conteúdo de .env.test e criar arquivo .env, apontando para o banco desejado"
 
 $ dotenv -e .env -- npx prisma migrate dev
+
 $ npm run start:dev
 
 ==> Para rodar os testes usar dos comandos abaixo:
